@@ -36,11 +36,11 @@ class Base {
 
     protected void run() {
         int r =  getRandomNumber(1, 100);
-        if (r < 10) {
-            fail(" ************** value of r = "  + r + "<10 so oops ************** ");
-        } else if (r < 20) {
-            throw new AssumptionViolatedException(" ************** value of r = "  + r + "<20 so skipping ************** ");
-        }
+        // if (r < 10) {
+        //     fail(" ************** value of r = "  + r + "<10 so oops ************** ");
+        // } else if (r < 20) {
+        //     throw new AssumptionViolatedException(" ************** value of r = "  + r + "<20 so skipping ************** ");
+        // }
     }
 
 }
