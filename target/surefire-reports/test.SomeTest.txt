@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.SomeTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.001 sec <<< FAILURE! - in test.SomeTest
+mytest5(test.SomeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError:  ************** value of r = 8<10 so oops ************** 
+	at org.junit.Assert.fail(Assert.java:89)
+	at test.Base.run(Base.java:40)
+	at test.SomeTest.mytest5(SomeTest.java:49)
+
